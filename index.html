@@ -71,18 +71,36 @@
         updateBannerVisibility();
       }
 
+      //var buildUrl = "Build";
+      //var loaderUrl = buildUrl + "/miyashiro2v15.loader.js";
+      //var config = {
+        //dataUrl: buildUrl + "/miyashiro2v15.data.gz",
+        //frameworkUrl: buildUrl + "/miyashiro2v15.framework.js.gz",
+        //codeUrl: buildUrl + "/miyashiro2v15.wasm.gz",
+        //streamingAssetsUrl: "StreamingAssets",
+        //companyName: "DefaultCompany",
+        //productName: "My project (2)",
+        //productVersion: "0.1",
+        //showBanner: unityShowBanner,
+      //};
+      //上記コードは↓コードに置き換え
+
+
+
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/miyashiro2v15.loader.js";
       var config = {
         dataUrl: buildUrl + "/miyashiro2v15.data.gz",
         frameworkUrl: buildUrl + "/miyashiro2v15.framework.js.gz",
-        codeUrl: buildUrl + "/miyashiro2v15.wasm.gz",
+        codeUrl: buildUrl + "/miyashiro2v15.wasm.gz", // 修正
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project (2)",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
+
+      
 
       // By default Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
