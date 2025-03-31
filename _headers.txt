@@ -6,3 +6,6 @@
 
 /Build/miyashiro2v15.wasm.data.unityweb
   Content-Encoding: gzip
+
+/Build/miyashiro2v15.wasm.gz
+  Content-Encoding: gzip
